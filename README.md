@@ -1,6 +1,6 @@
 # dotfilesPEROEPICO
 
-![Image])https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/ralseiporraco.jpg)
+![Image](https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/ralseiporraco.jpg)
 
 ## what I use
 
