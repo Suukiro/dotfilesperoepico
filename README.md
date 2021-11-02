@@ -1,5 +1,4 @@
 # dotfilesPEROEPICO
-## dwm
 
 ## what I use
 
