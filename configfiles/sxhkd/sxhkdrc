@@ -1,0 +1,16 @@
+super + Return
+	st
+super + F2
+	firefox
+super + F3
+	nautilus
+super + t
+	trayer
+super + y
+	pkill trayer
+super + d
+	dmenu_run
+super + shift + d
+	j4-dmenu-desktop
+super + m
+	flatpak run com.github.taiko2k.tauonmb	
