@@ -1,0 +1,273 @@
+# Finnish translations for nitrogen package.
+# Copyright (C) 2010 l3ib.org
+# This file is distributed under the same license as the nitrogen package.
+# Siiseli Koulutus <tuki@siiseli.fi>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nitrogen 1.5.1\n"
+"Report-Msgid-Bugs-To: daf@minuslab.net\n"
+"POT-Creation-Date: 2017-02-11 13:29-0500\n"
+"PO-Revision-Date: 2010-08-26 09:04+0300\n"
+"Last-Translator: Siiseli Koulutus <tuki@siiseli.fi>\n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/ArgParser.cc:75
+msgid "Unexpected argument "
+msgstr "Odottamaton argumentti "
+
+#: src/ArgParser.cc:84
+msgid " expects an argument."
+msgstr " vaatii argumentin."
+
+#: src/ArgParser.cc:87
+msgid " does not expect an argument."
+msgstr " ei odottanut argumenttia."
+
+#: src/ArgParser.cc:93
+msgid " conflicts with another argument."
+msgstr " on ristiriidassa toisen argumentin kanssa."
+
+#: src/ArgParser.cc:105
+msgid "Usage:"
+msgstr "Käyttö:"
+
+#: src/Config.cc:128 src/Config.cc:217
+msgid "ERROR: Unable to load config file"
+msgstr "VIRHE: Ei voitu avata asetustiedostoa."
+
+#: src/Config.cc:139
+msgid "Couldn't find group for"
+msgstr "Ei löydetty ryhmää:"
+
+#: src/Config.cc:151
+msgid "Could not get filename from config file."
+msgstr "Ei voitu noutaa tiedostonimeä asetustiedostosta."
+
+#: src/Config.cc:160
+msgid "Could not get mode from config file."
+msgstr "Ei voitu noutaa tilaa asetustiedostosta."
+
+#: src/Config.cc:219
+msgid "The error code returned was"
+msgstr "Palautettu virhekoodi oli"
+
+#: src/Config.cc:220
+msgid "We expected"
+msgstr "Odotettiin seuraavaa:"
+
+#: src/Config.cc:220
+msgid "or"
+msgstr "tai"
+
+#: src/NWindow.cc:253
+#, fuzzy
+msgid "You previewed an image without applying it, apply?"
+msgstr ""
+"Valitsit kuvan, mutta et asettanut sitä taustakuvaksi. Haluatko silti "
+"lopettaa?"
+
+#: src/NWindow.cc:329
+msgid "Automatic"
+msgstr "Automaattinen"
+
+#: src/NWindow.cc:336
+msgid "Scaled"
+msgstr "Skaalattu"
+
+#: src/NWindow.cc:344
+msgid "Centered"
+msgstr "Keskitetty"
+
+#: src/NWindow.cc:352
+msgid "Tiled"
+msgstr "Laatoita"
+
+#: src/NWindow.cc:361
+msgid "Zoomed"
+msgstr "Lähennys"
+
+#: src/NWindow.cc:362
+msgid "Zoomed Fill"
+msgstr "Venytetty"
+
+#: src/SetBG.cc:516 src/SetBG.cc:544
+msgid "Scale"
+msgstr "Skaala"
+
+#: src/SetBG.cc:519 src/SetBG.cc:546
+msgid "Center"
+msgstr "Keskitetty"
+
+#: src/SetBG.cc:522 src/SetBG.cc:548
+msgid "Tile"
+msgstr "Laatta"
+
+#: src/SetBG.cc:525 src/SetBG.cc:550
+msgid "Zoom"
+msgstr "Suurennos"
+
+#: src/SetBG.cc:528 src/SetBG.cc:552
+msgid "ZoomFill"
+msgstr "Venytys"
+
+#: src/SetBG.cc:531 src/SetBG.cc:554
+msgid "Auto"
+msgstr "Automaattinen"
+
+#: src/SetBG.cc:622
+msgid "Could not get bg groups from config file."
+msgstr "Ei voitu noutaa taustakuvaryhmiä asetustiedostosta."
+
+#: src/SetBG.cc:646 src/SetBG.cc:653
+msgid "ERROR"
+msgstr "VIRHE"
+
+#: src/SetBG.cc:665 src/SetBG.cc:1040
+msgid "Could not open display"
+msgstr "Ei voitu avata näyttöä"
+
+#: src/SetBG.cc:726
+msgid "ERROR: Could not load file in bg set"
+msgstr "VIRHE: Ei voitu ladata tiedostoa taustakuvajoukosta"
+
+#: src/SetBG.cc:804
+msgid "Unknown mode for saved bg"
+msgstr "Tuntematon tila tallennetulle taustakuvalle"
+
+#: src/SetBG.cc:918
+msgid "ERROR: BG set could not make atoms."
+msgstr "VIRHE: Taustakuvan asetus ei voinut tehdä atomeita."
+
+#: src/SetBG.cc:1019 src/SetBG.cc:1119 src/SetBG.cc:1521
+msgid "Screen"
+msgstr "Näyttö"
+
+#: src/SetBG.cc:1114 src/SetBG.cc:1514
+msgid "Full Screen"
+msgstr "Koko näyttö"
+
+#: src/SetBG.cc:1179
+msgid "Could not find Xinerama screen number"
+msgstr "Ei voitu löytää Xineraman näyttönumeroa"
+
+#: src/Util.cc:95
+msgid "Restore saved backgrounds"
+msgstr "Palauta tallennetut taustakuvat"
+
+#: src/Util.cc:96
+msgid "Do not recurse into subdirectories"
+msgstr "Älä etsi alikansioista"
+
+#: src/Util.cc:97
+msgid ""
+"How to sort the backgrounds. Valid options are:\n"
+"\t\t\t* alpha, for alphanumeric sort\n"
+"\t\t\t* ralpha, for reverse alphanumeric sort\n"
+"\t\t\t* time, for last modified time sort (oldest first)\n"
+"\t\t\t* rtime, for reverse last modified time sort (newest first)"
+msgstr ""
+"Kuinka taustakuvat lajitellaan. Sopivat valinnat ovat:\n"
+"\t\t\t* alpha, lajitellaan kirjainten ja numeroiden perusteella\n"
+"\t\t\t* ralpha, lajittelu kirjainten ja numeroiden perusteella käänteisesti\n"
+"\t\t\t* time, lajittelu viimeksi muokatun ajan perusteella, (vanhin ensin)\n"
+"\t\t\t* rtime, käänteinen lajittelu viimeksi muokatun ajan perusteella, "
+"(uusin ensin)"
+
+#: src/Util.cc:98
+msgid "background color in hex, #000000 by default"
+msgstr "taustaväri heksadesimaalimuodossa, oletuksena #000000"
+
+#: src/Util.cc:99
+msgid "Select xinerama/multihead display in GUI, 0..n, -1 for full"
+msgstr ""
+
+#: src/Util.cc:100
+msgid "Force setter engine: xwindows, xinerama, gnome, pcmanfm"
+msgstr ""
+
+#: src/Util.cc:101
+msgid "Choose random background from config or given directory"
+msgstr ""
+
+#: src/Util.cc:106 src/Util.cc:107 src/Util.cc:108 src/Util.cc:109
+#: src/Util.cc:110 src/Util.cc:111
+msgid "Sets the background to the given file"
+msgstr "Asettaa taustakuvan osoitettuun tiedostoon"
+
+#: src/Util.cc:106
+msgid "scaled"
+msgstr "skaalattu"
+
+#: src/Util.cc:107
+msgid "tiled"
+msgstr "laatoitettu"
+
+#: src/Util.cc:108
+msgid "auto"
+msgstr "automaattinen"
+
+#: src/Util.cc:109
+msgid "centered"
+msgstr "keskitetty"
+
+#: src/Util.cc:110
+msgid "zoom"
+msgstr "suurennettu"
+
+#: src/Util.cc:111
+msgid "zoom-fill"
+msgstr "suurennettu ja täytetty"
+
+#: src/Util.cc:112
+msgid "Saves the background permanently"
+msgstr "Tallentaa taustakuvan pysyvästi"
+
+#: src/Util.cc:207
+msgid "Could not open dir"
+msgstr "Ei voitu avata hakemistoa"
+
+#: src/Util.cc:292
+msgid "Currently set background"
+msgstr "Tämänhetkinen taustakuva"
+
+#: src/Util.cc:295
+msgid "for"
+msgstr "kohteelle"
+
+#: src/main.cc:133
+msgid "Error parsing command line"
+msgstr "Virhe jäsenneltäessä komentoriviä"
+
+#~ msgid "Could not open config directory."
+#~ msgstr "Ei voitu avata asetushakemistoa."
+
+#~ msgid "Default"
+#~ msgstr "Oletus"
+
+#~ msgid "Unknown mode for saved bg on"
+#~ msgstr "Tuntematon tila tallennetulle taustakuvalle"
+
+#~ msgid ""
+#~ "UNKNOWN ROOT WINDOW TYPE DETECTED, will attempt to set via normal X "
+#~ "procedure"
+#~ msgstr ""
+#~ "TUNTEMATON ROOT-IKKUNA TUNNISTETTU, yritetään asettaa tavanomaisen X-"
+#~ "proseduurin kautta"
+
+#~ msgid "Invalid UTF-8 encountered. Skipping file"
+#~ msgstr "Epäkelpo UTF-8 tunnistettu. Ohitetaan tiedosto"
+
+#~ msgid "Could not get bg info for fullscreen xinerama"
+#~ msgstr "Ei voitu noutaa taustakuvan tietoja koko näytön xineramaa varten"
+
+#~ msgid "Could not get bg info for"
+#~ msgstr "Ei voitu noutaa taustakuvan tietoja kohteelle"
+
+#~ msgid "Could not get bg info"
+#~ msgstr "Ei voitu noutaa taustakuvan tietoja"

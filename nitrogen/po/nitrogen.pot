@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR l3ib.org
+# This file is distributed under the same license as the nitrogen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nitrogen 1.6.1\n"
+"Report-Msgid-Bugs-To: daf@minuslab.net\n"
+"POT-Creation-Date: 2018-03-22 23:01+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ArgParser.cc:75
+msgid "Unexpected argument "
+msgstr ""
+
+#: src/ArgParser.cc:84
+msgid " expects an argument."
+msgstr ""
+
+#: src/ArgParser.cc:87
+msgid " does not expect an argument."
+msgstr ""
+
+#: src/ArgParser.cc:93
+msgid " conflicts with another argument."
+msgstr ""
+
+#: src/ArgParser.cc:105
+msgid "Usage:"
+msgstr ""
+
+#: src/Config.cc:128 src/Config.cc:217
+msgid "ERROR: Unable to load config file"
+msgstr ""
+
+#: src/Config.cc:139
+msgid "Couldn't find group for"
+msgstr ""
+
+#: src/Config.cc:151
+msgid "Could not get filename from config file."
+msgstr ""
+
+#: src/Config.cc:160
+msgid "Could not get mode from config file."
+msgstr ""
+
+#: src/Config.cc:219
+msgid "The error code returned was"
+msgstr ""
+
+#: src/Config.cc:220
+msgid "We expected"
+msgstr ""
+
+#: src/Config.cc:220
+msgid "or"
+msgstr ""
+
+#: src/NWindow.cc:253
+msgid "You previewed an image without applying it, apply?"
+msgstr ""
+
+#: src/NWindow.cc:329
+msgid "Automatic"
+msgstr ""
+
+#: src/NWindow.cc:336
+msgid "Scaled"
+msgstr ""
+
+#: src/NWindow.cc:344
+msgid "Centered"
+msgstr ""
+
+#: src/NWindow.cc:352
+msgid "Tiled"
+msgstr ""
+
+#: src/NWindow.cc:361
+msgid "Zoomed"
+msgstr ""
+
+#: src/NWindow.cc:362
+msgid "Zoomed Fill"
+msgstr ""
+
+#: src/SetBG.cc:520 src/SetBG.cc:548
+msgid "Scale"
+msgstr ""
+
+#: src/SetBG.cc:523 src/SetBG.cc:550
+msgid "Center"
+msgstr ""
+
+#: src/SetBG.cc:526 src/SetBG.cc:552
+msgid "Tile"
+msgstr ""
+
+#: src/SetBG.cc:529 src/SetBG.cc:554
+msgid "Zoom"
+msgstr ""
+
+#: src/SetBG.cc:532 src/SetBG.cc:556
+msgid "ZoomFill"
+msgstr ""
+
+#: src/SetBG.cc:535 src/SetBG.cc:558
+msgid "Auto"
+msgstr ""
+
+#: src/SetBG.cc:626
+msgid "Could not get bg groups from config file."
+msgstr ""
+
+#: src/SetBG.cc:650 src/SetBG.cc:657
+msgid "ERROR"
+msgstr ""
+
+#: src/SetBG.cc:669 src/SetBG.cc:1044
+msgid "Could not open display"
+msgstr ""
+
+#: src/SetBG.cc:730
+msgid "ERROR: Could not load file in bg set"
+msgstr ""
+
+#: src/SetBG.cc:808
+msgid "Unknown mode for saved bg"
+msgstr ""
+
+#: src/SetBG.cc:922
+msgid "ERROR: BG set could not make atoms."
+msgstr ""
+
+#: src/SetBG.cc:1023 src/SetBG.cc:1123 src/SetBG.cc:1533
+msgid "Screen"
+msgstr ""
+
+#: src/SetBG.cc:1118 src/SetBG.cc:1526
+msgid "Full Screen"
+msgstr ""
+
+#: src/SetBG.cc:1183
+msgid "Could not find Xinerama screen number"
+msgstr ""
+
+#: src/Util.cc:95
+msgid "Restore saved backgrounds"
+msgstr ""
+
+#: src/Util.cc:96
+msgid "Do not recurse into subdirectories"
+msgstr ""
+
+#: src/Util.cc:97
+msgid ""
+"How to sort the backgrounds. Valid options are:\n"
+"\t\t\t* alpha, for alphanumeric sort\n"
+"\t\t\t* ralpha, for reverse alphanumeric sort\n"
+"\t\t\t* time, for last modified time sort (oldest first)\n"
+"\t\t\t* rtime, for reverse last modified time sort (newest first)"
+msgstr ""
+
+#: src/Util.cc:98
+msgid "background color in hex, #000000 by default"
+msgstr ""
+
+#: src/Util.cc:99
+msgid "Select xinerama/multihead display in GUI, 0..n, -1 for full"
+msgstr ""
+
+#: src/Util.cc:100
+msgid "Force setter engine: xwindows, xinerama, gnome, pcmanfm"
+msgstr ""
+
+#: src/Util.cc:101
+msgid "Choose random background from config or given directory"
+msgstr ""
+
+#: src/Util.cc:106 src/Util.cc:107 src/Util.cc:108 src/Util.cc:109
+#: src/Util.cc:110 src/Util.cc:111
+msgid "Sets the background to the given file"
+msgstr ""
+
+#: src/Util.cc:106
+msgid "scaled"
+msgstr ""
+
+#: src/Util.cc:107
+msgid "tiled"
+msgstr ""
+
+#: src/Util.cc:108
+msgid "auto"
+msgstr ""
+
+#: src/Util.cc:109
+msgid "centered"
+msgstr ""
+
+#: src/Util.cc:110
+msgid "zoom"
+msgstr ""
+
+#: src/Util.cc:111
+msgid "zoom-fill"
+msgstr ""
+
+#: src/Util.cc:112
+msgid "Saves the background permanently"
+msgstr ""
+
+#: src/Util.cc:208
+msgid "Could not open dir"
+msgstr ""
+
+#: src/Util.cc:293
+msgid "Currently set background"
+msgstr ""
+
+#: src/Util.cc:296
+msgid "for"
+msgstr ""
+
+#: src/main.cc:133
+msgid "Error parsing command line"
+msgstr ""
+
+#: src/NPrefsWindow.cc:27
+msgid "Preferences"
+msgstr ""
+
+#: src/NPrefsWindow.cc:28
+msgid "View Options"
+msgstr ""
+
+#: src/NPrefsWindow.cc:29
+msgid "Directories"
+msgstr ""
+
+#: src/NPrefsWindow.cc:30
+msgid "Sort by"
+msgstr ""
+
+#: src/NPrefsWindow.cc:31
+msgid "_Icon"
+msgstr ""
+
+#: src/NPrefsWindow.cc:32
+msgid "_Icon with captions"
+msgstr ""
+
+#: src/NPrefsWindow.cc:33
+msgid "_List"
+msgstr ""
+
+#: src/NPrefsWindow.cc:34
+msgid "_Time (descending)"
+msgstr ""
+
+#: src/NPrefsWindow.cc:35
+msgid "_Time (ascending)"
+msgstr ""
+
+#: src/NPrefsWindow.cc:36
+msgid "_Name (ascending)"
+msgstr ""
+
+#: src/NPrefsWindow.cc:37
+msgid "_Name (descending)"
+msgstr ""
+
+#: src/NPrefsWindow.cc:38
+msgid "Recurse"
+msgstr ""
+
+#: src/NPrefsWindow.cc:202
+msgid "Are you sure you want to delete <b>%1</b>?"
+msgstr ""
