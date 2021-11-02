@@ -4,6 +4,8 @@
 
 ## what I use
 
+os: arch
+
 wm: dwm
 
 launchers: sxhkd & dmenu, j4-dmenu-desktop
