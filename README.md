@@ -20,8 +20,8 @@ terminal: st
 
 various: yay, flatpak, neofetch, arandr/xrandr, cmatrix
 
-[the theme I used in tauon by aleister888](https://github.com/Taiko2k/TauonMusicBox/discussions/461#discussioncomment-714382)
+[tauon theme by aleister888](https://github.com/Taiko2k/TauonMusicBox/discussions/461#discussioncomment-714382)
 
-[st build by luke smith, custom theme](https://github.com/lukesmithxyz/st)
+[st build by luke smith, using my custom theme](https://github.com/lukesmithxyz/st)
 
 [dwm build by aleister888](https://github.com/aleister888/dotfiles/tree/main/dwm)
