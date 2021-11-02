@@ -1,5 +1,7 @@
 # dotfilesPEROEPICO
 
+![Image])https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/ralseiporraco.jpg)
+
 ## what I use
 
 wm: dwm
