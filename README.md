@@ -18,6 +18,8 @@ music player: tauon music box
 
 terminal: st
 
+wallpaper manager: nitrogen
+
 various: yay, flatpak, neofetch, arandr/xrandr, cmatrix
 
 [tauon theme by aleister888](https://github.com/Taiko2k/TauonMusicBox/discussions/461#discussioncomment-714382)
