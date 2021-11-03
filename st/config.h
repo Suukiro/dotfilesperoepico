@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Monospace:pixelsize=26:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=26:antialias=true:autohint=true" };
+static char *font = "Monospace:pixelsize=22:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=22:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -115,9 +115,9 @@ float alphaUnfocus;
 static const char *colorname[] = {
 	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	"#cc241d",
-	"#98971a",
+	"#9c9d17",
 	"#d79921",
-	"#458588",
+	"#37b8ed",
 	"#b16286",
 	"#68369e",
 	"#a89984",
