@@ -26,6 +26,6 @@ various: yay, flatpak, neofetch, arandr/xrandr, cmatrix
 
 [st build by luke smith, using my custom theme](https://github.com/lukesmithxyz/st)
 
-[dwm build by aleister888](https://github.com/aleister888/dotfiles/tree/main/dwm)
+[dwm build by aleister888, edited by me](https://github.com/aleister888/dotfiles/tree/main/dwm)
 
 [dmenu build by aleister888](https://github.com/aleister888/dotfiles/tree/main/dmenu)
