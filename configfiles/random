@@ -1,3 +1,3 @@
 sudo pacman -S --noconfirm gstreamer gst-plugins-bad gst-plugins-base  gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools vlc lame
 yay -S libxft-bgra
-change in /bin/ gnome-terminal to st, deleting gnome-terminal and renaming st to gnome-terminal
+change in /bin/ gnome-terminal to st, deleting gnome-terminal and renaming st to gnome-terminal (this breaks the terminal in gnome, works fine on dwm)
