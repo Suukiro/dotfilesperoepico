@@ -8,7 +8,7 @@
 + autostart
 
 ## dependencies
-- libxft
+- libxft-bgra
 - ttf-hack
 - ttf-joypixels
 - st
