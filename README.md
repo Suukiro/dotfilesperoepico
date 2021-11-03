@@ -10,7 +10,7 @@ wm: dwm
 
 launchers: sxhkd & dmenu, j4-dmenu-desktop
 
-browser: firefox (sponsorskip, privacy badger, ublock origin, universal bypass, search by image)
+browser: firefox (sponsorskip, privacy badger, ublock origin, universal bypass, search by image, alpenglow dark)
 
 file manager: nautilus
 
