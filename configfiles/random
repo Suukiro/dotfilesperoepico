@@ -1,4 +1,4 @@
 sudo pacman -S --noconfirm gstreamer gst-plugins-bad gst-plugins-base  gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools vlc lame
 yay -S libxft-bgra
 change in /bin/ gnome-terminal to st, deleting gnome-terminal and renaming st to gnome-terminal (this breaks the terminal in gnome, works fine on dwm)
-enable multilib, for wine: $ sudo nano /etc/pacman.conf (remove [[multilib] Include = /etc/pacman.d/mirrorlist)
+enable multilib, for wine: $ sudo nano /etc/pacman.conf (uncomment [[multilib] Include = /etc/pacman.d/mirrorlist)
