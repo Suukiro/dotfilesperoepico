@@ -2,3 +2,4 @@ sudo pacman -S --noconfirm gstreamer gst-plugins-bad gst-plugins-base  gst-plugi
 yay -S libxft-bgra
 change in /bin/ gnome-terminal to st, deleting gnome-terminal and renaming st to gnome-terminal (this breaks the terminal in gnome, works fine on dwm)
 enable multilib, for wine, wine-gecko and wine-mono: $ sudo nano /etc/pacman.conf (uncomment [[multilib] Include = /etc/pacman.d/mirrorlist), then do a system update sudo pacman -Syu and -Syyu
+sudo pacman -S --noconfirm gst-libav
