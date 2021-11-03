@@ -4,7 +4,7 @@
 
 ## what I use
 
-os: arch
+distro: arch
 
 wm: dwm
 
