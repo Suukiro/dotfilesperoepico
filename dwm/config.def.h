@@ -1,8 +1,8 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx       = 1;   /* border pixel of windows */
-static const unsigned int snap           = 32;  /* snap pixel */
+static const unsigned int borderpx       = 0;   /* border pixel of windows */
+static const unsigned int snap           = 0;  /* snap pixel */
 static const char autostartblocksh[]     = "autostart_blocking.sh";
 static const char autostartsh[]          = "autostart.sh";
 static const char dwmdir[]               = "dwm";
@@ -15,50 +15,52 @@ static const int statusmon               = 'A';
 static int tagindicatortype              = INDICATOR_TOP_LEFT_SQUARE;
 static int tiledindicatortype            = INDICATOR_NONE;
 static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;
-static const char *fonts[]               = { "monospace:size=10" };
-static const char dmenufont[]            = "monospace:size=10";
+static const char *fonts[]     = {"Monospace:size=10:antialias=true:autohint=true",
+                                  "JoyPixels:size=10:antialias=true:autohint=true"
+                                                        };
+static const char dmenufont[]            = "Monospace:size=10";
 
-static char c000000[]                    = "#000000"; // placeholder value
+static char c000000[]                    = "#131313"; // placeholder value
 
-static char normfgcolor[]                = "#bbbbbb";
-static char normbgcolor[]                = "#222222";
-static char normbordercolor[]            = "#444444";
-static char normfloatcolor[]             = "#db8fd9";
+static char normfgcolor[]                = "#ffffff";
+static char normbgcolor[]                = "#000000";
+static char normbordercolor[]            = "#000000";
+static char normfloatcolor[]             = "#000000";
 
-static char selfgcolor[]                 = "#eeeeee";
-static char selbgcolor[]                 = "#005577";
-static char selbordercolor[]             = "#005577";
-static char selfloatcolor[]              = "#005577";
+static char selfgcolor[]                 = "#ffffff";
+static char selbgcolor[]                 = "#131313";
+static char selbordercolor[]             = "#131313";
+static char selfloatcolor[]              = "#131313";
 
-static char titlenormfgcolor[]           = "#bbbbbb";
-static char titlenormbgcolor[]           = "#222222";
-static char titlenormbordercolor[]       = "#444444";
-static char titlenormfloatcolor[]        = "#db8fd9";
+static char titlenormfgcolor[]           = "#ffffff";
+static char titlenormbgcolor[]           = "#000000";
+static char titlenormbordercolor[]       = "#000000";
+static char titlenormfloatcolor[]        = "#000000";
 
-static char titleselfgcolor[]            = "#eeeeee";
-static char titleselbgcolor[]            = "#005577";
-static char titleselbordercolor[]        = "#005577";
-static char titleselfloatcolor[]         = "#005577";
+static char titleselfgcolor[]            = "#ffffff";
+static char titleselbgcolor[]            = "#131313";
+static char titleselbordercolor[]        = "#131313";
+static char titleselfloatcolor[]         = "#131313";
 
-static char tagsnormfgcolor[]            = "#bbbbbb";
-static char tagsnormbgcolor[]            = "#222222";
-static char tagsnormbordercolor[]        = "#444444";
-static char tagsnormfloatcolor[]         = "#db8fd9";
+static char tagsnormfgcolor[]            = "#ffffff";
+static char tagsnormbgcolor[]            = "#000000";
+static char tagsnormbordercolor[]        = "#000000";
+static char tagsnormfloatcolor[]         = "#000000";
 
-static char tagsselfgcolor[]             = "#eeeeee";
-static char tagsselbgcolor[]             = "#005577";
-static char tagsselbordercolor[]         = "#005577";
-static char tagsselfloatcolor[]          = "#005577";
+static char tagsselfgcolor[]             = "#ffffff";
+static char tagsselbgcolor[]             = "#131313";
+static char tagsselbordercolor[]         = "#131313";
+static char tagsselfloatcolor[]          = "#131313";
 
-static char hidnormfgcolor[]             = "#005577";
-static char hidselfgcolor[]              = "#227799";
-static char hidnormbgcolor[]             = "#222222";
-static char hidselbgcolor[]              = "#222222";
+static char hidnormfgcolor[]             = "#ffffff";
+static char hidselfgcolor[]              = "#000000";
+static char hidnormbgcolor[]             = "#000000";
+static char hidselbgcolor[]              = "#000000";
 
-static char urgfgcolor[]                 = "#bbbbbb";
-static char urgbgcolor[]                 = "#222222";
-static char urgbordercolor[]             = "#ff0000";
-static char urgfloatcolor[]              = "#db8fd9";
+static char urgfgcolor[]                 = "#ffffff";
+static char urgbgcolor[]                 = "#131313";
+static char urgbordercolor[]             = "#131313";
+static char urgfloatcolor[]              = "#131313";
 
 
 
@@ -107,7 +109,7 @@ static char *colors[][ColCount] = {
  * them. This works seamlessly with alternative tags and alttagsdecoration patches.
  */
 static char *tagicons[][NUMTAGS] = {
-	[DEFAULT_TAGS]        = { "1", "2", "3", "4", "5", "6", "7", "8", "9" },
+	[DEFAULT_TAGS]        = { "🤨", "👽", "🔪", "👌", "💀", "👁️", "👁️", "✨", "😳" },
 	[ALTERNATIVE_TAGS]    = { "A", "B", "C", "D", "E", "F", "G", "H", "I" },
 	[ALT_TAGS_DECORATION] = { "<1>", "<2>", "<3>", "<4>", "<5>", "<6>", "<7>", "<8>", "<9>" },
 };
@@ -142,8 +144,7 @@ static const Rule rules[] = {
 	RULE(.wintype = WTYPE "UTILITY", .isfloating = 1)
 	RULE(.wintype = WTYPE "TOOLBAR", .isfloating = 1)
 	RULE(.wintype = WTYPE "SPLASH", .isfloating = 1)
-	RULE(.class = "Gimp", .tags = 1 << 4)
-	RULE(.class = "Firefox", .tags = 1 << 7)
+	RULE(.class = "Steam", .tags = 1 << 8)
 };
 
 
@@ -184,7 +185,7 @@ static const Layout layouts[] = {
 
 
 /* key definitions */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
@@ -214,35 +215,33 @@ static const char *termcmd[]  = { "st", NULL };
 
 static Key keys[] = {
 	/* modifier                     key            function                argument */
-	{ MODKEY,                       XK_p,          spawn,                  {.v = dmenucmd } },
-	{ MODKEY|ShiftMask,             XK_Return,     spawn,                  {.v = termcmd } },
-	{ MODKEY,                       XK_b,          togglebar,              {0} },
-	{ MODKEY,                       XK_j,          focusstack,             {.i = +1 } },
-	{ MODKEY,                       XK_k,          focusstack,             {.i = -1 } },
-	{ MODKEY|Mod4Mask,              XK_j,          rotatestack,            {.i = +1 } },
-	{ MODKEY|Mod4Mask,              XK_k,          rotatestack,            {.i = -1 } },
-	{ MODKEY,                       XK_i,          incnmaster,             {.i = +1 } },
-	{ MODKEY,                       XK_d,          incnmaster,             {.i = -1 } },
-	{ MODKEY,                       XK_h,          setmfact,               {.f = -0.05} },
-	{ MODKEY,                       XK_l,          setmfact,               {.f = +0.05} },
-	{ MODKEY,                       XK_Return,     zoom,                   {0} },
-	{ MODKEY,                       XK_Tab,        view,                   {0} },
-	{ MODKEY|ShiftMask,             XK_c,          killclient,             {0} },
-	{ MODKEY|ShiftMask,             XK_r,          self_restart,           {0} },
-	{ MODKEY|ShiftMask,             XK_q,          quit,                   {0} },
-	{ MODKEY,                       XK_t,          setlayout,              {.v = &layouts[0]} },
-	{ MODKEY,                       XK_f,          setlayout,              {.v = &layouts[1]} },
-	{ MODKEY,                       XK_m,          setlayout,              {.v = &layouts[2]} },
-	{ MODKEY,                       XK_space,      setlayout,              {0} },
-	{ MODKEY|ShiftMask,             XK_space,      togglefloating,         {0} },
-	{ MODKEY,                       XK_0,          view,                   {.ui = ~0 } },
-	{ MODKEY|ShiftMask,             XK_0,          tag,                    {.ui = ~0 } },
-	{ MODKEY,                       XK_comma,      focusmon,               {.i = -1 } },
-	{ MODKEY,                       XK_period,     focusmon,               {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_comma,      tagmon,                 {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_period,     tagmon,                 {.i = +1 } },
-	{ MODKEY|ControlMask,           XK_comma,      cyclelayout,            {.i = -1 } },
-	{ MODKEY|ControlMask,           XK_period,     cyclelayout,            {.i = +1 } },
+        { MODKEY,                       XK_Return,     spawn,                  {.v = termcmd } },
+        { MODKEY,                       XK_b,          togglebar,              {0} },
+	{ MODKEY|ShiftMask,             XK_Right,      rotatestack,            {.i = +1 } },
+        { MODKEY|ShiftMask,             XK_Left,       rotatestack,            {.i = -1 } },
+        { MODKEY,                       XK_Right,      focusstack,             {.i = +1 } },
+        { MODKEY,                       XK_Left,       focusstack,             {.i = -1 } },
+        { MODKEY,                       XK_j,          incnmaster,             {.i = +1 } },
+        { MODKEY,                       XK_k,          incnmaster,             {.i = -1 } },
+        { MODKEY,                       XK_u,          setmfact,               {.f = -0.05} },
+        { MODKEY,                       XK_i,          setmfact,               {.f = +0.05} },
+        { MODKEY|ControlMask,           XK_Return,     zoom,                   {0} },
+        { Mod1Mask,                     XK_Tab,        view,                   {0} },
+        { MODKEY|ShiftMask,             XK_q,          killclient,             {0} },
+        { MODKEY,                       XK_F11,        quit,                   {0} },
+        { MODKEY|ShiftMask,             XK_F11,        self_restart,           {0} },
+	{ MODKEY|ShiftMask,             XK_t,          setlayout,              {.v = &layouts[0]} },
+        { MODKEY,                       XK_f,          setlayout,              {.v = &layouts[1]} },
+        { MODKEY,                       XK_space,      setlayout,              {0} },
+        { MODKEY|ShiftMask,             XK_space,      togglefloating,         {0} },
+        { MODKEY,                       XK_0,          view,                   {.ui = ~0 } },
+        { MODKEY|ShiftMask,             XK_0,          tag,                    {.ui = ~0 } },
+        { MODKEY,                       XK_comma,      focusmon,               {.i = -1 } },
+        { MODKEY,                       XK_period,     focusmon,               {.i = +1 } },
+        { MODKEY|ShiftMask,             XK_comma,      tagmon,                 {.i = -1 } },
+        { MODKEY|ShiftMask,             XK_period,     tagmon,                 {.i = +1 } },
+        { MODKEY,                       XK_Tab,        cyclelayout,            {.i = -1 } },
+        { MODKEY|ControlMask,           XK_period,     cyclelayout,            {.i = +1 } },
 	TAGKEYS(                        XK_1,                                  0)
 	TAGKEYS(                        XK_2,                                  1)
 	TAGKEYS(                        XK_3,                                  2)
