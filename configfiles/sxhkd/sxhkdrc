@@ -14,3 +14,5 @@ super + shift + d
 	j4-dmenu-desktop
 super + m
 	flatpak run com.github.taiko2k.tauonmb	
+super + c
+	pavucontrol
