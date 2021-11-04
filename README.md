@@ -1,6 +1,6 @@
 # dotfilesPEROEPICO
 
-![Image](https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/ralseiporraco.jpg)
+![Image](https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/configfiles/2021-11-04_01-01.png)
 
 ## what I use
 
@@ -29,3 +29,5 @@ various: yay, flatpak, neofetch, arandr/xrandr, cmatrix
 [dwm build by aleister888, edited by me](https://github.com/aleister888/dotfiles/tree/main/dwm)
 
 [dmenu build by aleister888](https://github.com/aleister888/dotfiles/tree/main/dmenu)
+
+![Image](https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/ralseiporraco.jpg)
