@@ -4,10 +4,8 @@ super + F2
 	firefox
 super + F3
 	nautilus
-super + t
-	trayer
 super + y
-	pkill trayer
+	st htop
 super + d
 	dmenu_run
 super + shift + d
