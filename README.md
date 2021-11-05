@@ -28,6 +28,4 @@ various: yay, flatpak, neofetch, arandr/xrandr, cmatrix, xcompmgr
 
 [dwm build by aleister888, edited by me](https://github.com/aleister888/dotfiles/tree/main/dwm)
 
-[dmenu build by aleister888](https://github.com/aleister888/dotfiles/tree/main/dmenu)
-
 ![Image](https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/ralseiporraco.jpg)
