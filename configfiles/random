@@ -1,9 +1,8 @@
-sudo pacman -S --noconfirm gstreamer gst-plugins-bad gst-plugins-base  gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools vlc lame
+sudo pacman -S --noconfirm gstreamer gst-plugins-bad gst-plugins-base  gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools vlc lame 
 yay -S libxft-bgra
 change in /bin/ gnome-terminal to st, deleting gnome-terminal and renaming st to gnome-terminal (this breaks the terminal in gnome, works fine on dwm)
 enable multilib, for wine, wine-gecko and wine-mono: $ sudo nano /etc/pacman.conf (uncomment [[multilib] Include = /etc/pacman.d/mirrorlist), then do a system update sudo pacman -Syu and -Syyu
 sudo pacman -S --noconfirm gst-libav
 fix for gnome terminal: edit /etc/locale.gen \ locale-gen \ localectl set-locale LANG="(input_given)" \ timedatectl set-timezone Time/Zone
-vmware tools: as root - 
+vmware tools: as root - pacman -S gtkmn open-vm-tools xf86-video-vmware xf86-input-vmmouse
 keyboard layout: localectl list-keymaps \ localectl set-keymap map 
-as root - sudo pacman -S lxdm, systemctl enable lxdm.service
