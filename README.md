@@ -1,6 +1,6 @@
 # dotfilesPEROEPICO
 
-![Image](https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/configfiles/2021-11-04_01-01.png)
+![Image](https://raw.githubusercontent.com/Suukiro/dotfilesperoepico/main/configfiles/2021-11-12_12-43_1.png)
 
 ## what I use
 
