@@ -20,7 +20,7 @@ terminal: st
 
 wallpaper manager: nitrogen
 
-various: yay, flatpak, neofetch, arandr/xrandr, cmatrix, xcompmgr
+various: yay, flatpak, neofetch, arandr/xrandr, cmatrix, xcompmgr, flameshot
 
 [tauon theme by aleister888](https://github.com/Taiko2k/TauonMusicBox/discussions/461#discussioncomment-714382)
 
