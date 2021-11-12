@@ -14,3 +14,7 @@ super + m
 	flatpak run com.github.taiko2k.tauonmb	
 super + c
 	pavucontrol
+super + p
+	flameshot gui
+super + shift + p
+	flameshot full -p /home/user/Imágenes/Capturas/
